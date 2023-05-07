@@ -9,11 +9,11 @@ body {
 	padding: 20px;
 	max-width: 65ch;
 	text-align: left;
-	background-color: #fff;
+	background-color: #0a0b1b;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
-	color: #444;
+	color: #f1f1f1;
 }
 h1,
 h2,
@@ -23,10 +23,10 @@ h5,
 h6,
 strong,
 b {
-	color: #222;
+	color: #ffffff;
 }
 a {
-	color: #3273dc;
+	color: #6596e4;
 }
 nav a {
 	margin-right: 10px;
@@ -60,7 +60,7 @@ pre > code {
 }
 blockquote {
 	border: 1px solid #999;
-	color: #222;
+	color: #adadad;
 	padding: 2px 0px 2px 20px;
 	margin: 0px;
 	font-style: italic;
