@@ -27,8 +27,7 @@ jobs:
           cmd: install --frozen-lockfile
 
       - name: Build Astro
-        uses: |
-          yarn build
+        run: yarn build
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v1
