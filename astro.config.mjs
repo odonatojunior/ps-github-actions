@@ -5,7 +5,8 @@ import sitemap from '@astrojs/sitemap'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://odonatojunior.github.io/ps-github-actions/',
+  site: 'https://odonatojunior.github.io',
+  base: '/ps-github-actions',
   integrations: [mdx(), sitemap()],
   output: 'static',
 })
