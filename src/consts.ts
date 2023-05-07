@@ -3,3 +3,5 @@
 
 export const SITE_TITLE = 'Blog do dev';
 export const SITE_DESCRIPTION = 'Bem vindo internauta';
+
+export const BASE_URL = import.meta.env.BASE_URL
