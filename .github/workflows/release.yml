@@ -1,5 +1,4 @@
 name: Build and deploy
-description: Release Astro site to GitHub Pages
 
 on:
   push:
