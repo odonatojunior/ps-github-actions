@@ -59,7 +59,7 @@ jobs:
 ```
 
 # Exemplo prático
-Vamos rodar uma action que faça um deploy automático de um site usando Astro dentro do GitHub Pages
+Vamos rodar uma action que faça um deploy automático de um site usando [Astro](https://astro.build/) dentro do [GitHub Pages](https://pages.github.com/)
 
 ```yaml
 
