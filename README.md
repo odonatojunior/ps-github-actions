@@ -45,16 +45,17 @@ jobs:
     strategy:
       matrix:
         os: ['ubuntu-latest', 'windows-latest']
+     runs-on: ${{ matrix.os }} 
 
-      - name: Lint
-        run: yarn lint
+    - name: Lint
+      run: yarn lint
 
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GIT_CREDENTIALS: ${{ secrets.GIT_CREDENTIALS }}
-        run: npx semantic-release
+    - name: Release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        GIT_CREDENTIALS: ${{ secrets.GIT_CREDENTIALS }}
+      run: npx semantic-release
 ```
 
 # Exemplo prático
