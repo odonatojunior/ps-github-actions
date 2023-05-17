@@ -25,6 +25,9 @@ GitHub Actions PS
 # Preço
 [![Tabela de preços do GitHub Actions](https://i.imgur.com/4cGT0Aa.png)](https://github.com/features/actions)
 
+# Máquina
+[![image](https://github.com/odonatojunior/ps-github-actions/assets/53847430/eb7e3eab-9126-4dc8-b69f-10b32d4cd840)](https://docs.github.com/pt/actions/using-github-hosted-runners/about-github-hosted-runners#supported-runners-and-hardware-resources)
+
 # Anatomia
 As actions utilizam a sintaxe de arquivos `yml` para seu funcionamento
 
